@@ -1,0 +1,46 @@
+Introduction
+
+In this tutorial we will cover IFTTT. What is it? How can we use it. Writing a simple service with IFTTT and how it can be implemented with IOT. The steps will include setting up your IFTTT account and the steps to follow to make the service complete. This service can be integrated with Windows embedded and using Visual Studio can be programmed and used.
+
+What is IFTTT?
+
+IFTTT is a web service which allows other services to be programmed by means of simple conditional statements called recipes.
+
+Let’s look at what IFTTT comprises of as per their website information:
+
+Channels
+
+Channels are the basic building blocks of IFTTT. Each Channel has its own Triggers and Actions.
+
+Triggers
+
+The ‘this’ part of a Recipe is a Trigger. Some example Triggers are “I’m tagged in a photo on Facebook” or “I check in on Foursquare".
+
+Actions
+
+The ‘that’ part of a Recipe is an Action. Some example Actions are “send me a text message” or “create a status message on Facebook”.
+
+Ingredients
+
+Pieces of data from a Trigger are called Ingredients. For example, the Ingredients of an Email Trigger could be: subject, body, attachment, received date, and the sender’s address.
+
+Recipes
+
+Personal Recipes are a combination of a Trigger and an Action from your active channels.
+
+On / Off
+
+Personal Recipes can be turned on and off. When turned back on, they pick up as if you had just created them.
+
+Polling Period
+
+Most Personal Recipes check for new Trigger data every 15 minutes, some are even faster. Let’s look at a process of creating an IFTTT service.
+
+Creating an IFTTT service:
+
+    Firstly, you need to sign or register for the service from here.
+    To start with you need to create a recipe.
+    Conditional statements to start with THIS option. It is a way to create the logic of the web service we are planning to do the whole process of creating a recipe goes through series of steps. THIS is a start point of activating the trigger. After that you are followed by activating the trigger.
+    Now you have to select a channel for a trigger. There are about 148 channels to choose from. As you choose the channel you need to activate the channel for the trigger.
+    To complete the logic of THAT we need to create an Action channel. You have to choose from Action channels available. We need to fill up the Action fields then create the Action and the logic of the Web Service will be complete.
+
